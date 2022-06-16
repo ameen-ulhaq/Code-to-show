@@ -12,6 +12,7 @@ function add_a_custom_button() {
     echo '<a class="button view-button" href="' . esc_attr( $product->get_permalink() ) . '">' . __('View Details') . '</a>';
 }
 
+// some changes
 /**
  * Add a custom product data tab
  */
